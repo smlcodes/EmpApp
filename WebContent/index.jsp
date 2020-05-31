@@ -15,6 +15,22 @@
 </head>
 <body>
 
+
+	<nav class="navbar navbar-dark bg-primary">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Employee App</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<a href="/EmployeeApp" class="btn btn-danger navbar-btn">Home</a>
+				<a href="empform" class="btn btn-info">Add Employee</a>
+				<a href="viewemp" class="btn btn-danger navbar-btn">View
+					Employees</a>
+			</ul>
+
+		</div>
+	</nav>
+
 	<div class="jumbotron text-center">
 		<h1>Employee Application</h1>
 		<p>

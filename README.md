@@ -23,10 +23,10 @@ ENGINE=InnoDB
 ---------------------------
 You need to add the "Maven Dependency" in the Deployment Assembly
 
-right click on your project and choose properties.
-click on Deployment Assembly.
-click add
-click on "Java Build Path Entries"
-select Maven Dependencies"
-click Finish.
-Rebuild and deploy again
+- right click on your project and choose properties.
+- click on Deployment Assembly.
+- click add
+- click on "Java Build Path Entries"
+- select Maven Dependencies"
+- click Finish.
+- Rebuild and deploy again

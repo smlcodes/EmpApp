@@ -1,4 +1,4 @@
-com\javatpoint\controllers\EmpController.class
-com\javatpoint\dao\EmpDao$1.class
-com\javatpoint\dao\EmpDao.class
-com\javatpoint\beans\Emp.class
+com\satyacodes\beans\Emp.class
+com\satyacodes\dao\EmpDao.class
+com\satyacodes\dao\EmpDao$1.class
+com\satyacodes\controllers\EmpController.class

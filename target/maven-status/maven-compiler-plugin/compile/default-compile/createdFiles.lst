@@ -1,4 +1,6 @@
 com\satyacodes\beans\Emp.class
+com\satyacodes\controllers\EmpControllerTest.class
 com\satyacodes\dao\EmpDao.class
 com\satyacodes\dao\EmpDao$1.class
 com\satyacodes\controllers\EmpController.class
+com\satyacodes\dao\EmpDaoTest.class

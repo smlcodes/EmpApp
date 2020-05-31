@@ -13,32 +13,33 @@ public class EmpDaoTest {
 
 	@Test
 	public void testSetTemplate() {
-		assertTrue(100>50);
+		assertTrue(100>1);
 	}
 
 	@Test
 	public void testSave() {
-		assertTrue(100>50);
+
+		assertTrue(100>1);
 	}
 
 	@Test
 	public void testUpdate() {
-		assertTrue(100>50);
+		assertTrue(100>1);
 	}
 
 	@Test
 	public void testDelete() {
-		assertTrue(100>50);
+		assertTrue(100>1);
 	}
 
 	@Test
 	public void testGetEmpById() {
-		assertTrue(100>50);
+		assertTrue(100>1);
 	}
 
 	@Test
 	public void testGetEmployees() {
-		assertTrue(100>50);
+		assertTrue(100>1);
 	}
 
 }

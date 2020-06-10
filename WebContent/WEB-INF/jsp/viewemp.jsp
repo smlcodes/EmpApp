@@ -22,11 +22,11 @@
 			<div class="navbar-header">
 				<a class="navbar-brand" href="#">Employee App</a>
 			</div>
-			<ul class="nav navbar-nav">
-				<a href="/EmployeeApp" class="btn btn-danger navbar-btn">Home</a>
-				<a href="empform" class="btn btn-info">Add Employee</a>
-				<a href="viewemp" class="btn btn-danger navbar-btn">View
-					Employees</a>
+			<ul class="nav navbar-nav" class="list-inline">
+				<li><a href="/EmployeeApp" class="btn btn-danger navbar-btn">Home</a></li>
+				<li><a href="empform" class="btn btn-info">Add Employee</a></li>
+				<li><a href="viewemp" class="btn btn-danger navbar-btn">View
+						Employees</a></li>
 			</ul>
 
 		</div>

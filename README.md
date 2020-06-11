@@ -1,13 +1,14 @@
 # EmpApp
 Employee Application-Spring+MySQL+Maven
 
-we are using  'emp99' table present in the MySQL database. 
-It has 4 fields: id, name, salary, and designation.
+- we are using  'emp99' table present in the MySQL database. 
 
-id, name, salary, and designation
+- It has 4 fields: id, name, salary, and designation.
+
+- id, name, salary, and designation
 
 
-
+```
 CREATE TABLE `emp99` (
 	`id` INT(11) NOT NULL AUTO_INCREMENT,
 	`name` VARCHAR(500) NULL DEFAULT NULL,
@@ -18,7 +19,7 @@ CREATE TABLE `emp99` (
 COLLATE='utf8mb4_general_ci'
 ENGINE=InnoDB
 ;
-
+```
 
 ---------------------------
 You need to add the "Maven Dependency" in the Deployment Assembly

@@ -6,7 +6,7 @@
   <packaging>war</packaging>
   
   
-  <!--comment if you are not using artficatory -->
+  <!--
   <distributionManagement>
     <repository>
         <id>central</id>
@@ -19,7 +19,7 @@
         <url>http://localhost:8081/artifactory/Maven-artifacts</url>
     </snapshotRepository>
 </distributionManagement>
-  <!--comment if you are not using artficatory -->
+-->
   
   	<dependencies>
 		<!-- https://mvnrepository.com/artifact/junit/junit -->

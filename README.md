@@ -1,4 +1,5 @@
 # EmpApp
+
 Employee Application-Spring+MySQL+Maven
 
 - we are using  'emp99' table present in the MySQL database. 
@@ -20,6 +21,22 @@ COLLATE='utf8mb4_general_ci'
 ENGINE=InnoDB
 ;
 ```
+
+
+
+## Configure Database Details
+EmpApp\WebContent\WEB-INF\spring-servlet.xml
+
+```
+<bean id="ds" class="org.springframework.jdbc.datasource.DriverManagerDataSource">  
+<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>  
+<property name="url" value="jdbc:mysql://localhost:3306/emp?serverTimezone=UTC"></property>  
+<property name="username" value="root"></property>  
+<property name="password" value="root"></property>  
+</bean>  
+```
+
+
 
 ---------------------------
 You need to add the "Maven Dependency" in the Deployment Assembly

@@ -26,11 +26,11 @@
 
 
 <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>EC2AMAZ-OTOGTLM-releases</name>
-        <url>http://18.191.147.35:8081/artifactory/libs-release</url>
-    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>EC2AMAZ-OTOGTLM-snapshots</name>
+        <url>http://18.191.147.35:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
 </distributionManagement>
 
 	<dependencies>

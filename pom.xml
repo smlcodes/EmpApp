@@ -25,10 +25,13 @@
 	</profiles>
 
 
-	<!-- <distributionManagement> <repository> <id>central</id> <name>001403-releases</name> 
-		<url>http://localhost:8081/artifactory/Maven-artifacts</url> </repository> 
-		<snapshotRepository> <id>snapshots</id> <name>001403-snapshots</name> <url>http://localhost:8081/artifactory/Maven-artifacts</url> 
-		</snapshotRepository> </distributionManagement> -->
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>EC2AMAZ-OTOGTLM-releases</name>
+        <url>http://18.191.147.35:8081/artifactory/libs-release</url>
+    </repository>
+</distributionManagement>
 
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
